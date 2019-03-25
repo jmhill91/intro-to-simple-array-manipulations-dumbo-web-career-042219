@@ -22,5 +22,6 @@ end
 def using_insert(array,elem)
   array.insert(4, elem)
 end
-def using_uniq
-  
+def using_uniq(array)
+  array.uniq!
+end
